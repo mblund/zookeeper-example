@@ -15,4 +15,4 @@ done
 
 PRGDIR=`dirname "$PRG"`
 
-java -cp $PRGDIR/../target/classes:$PRGDIR/etc/examples-libs/* com.mblund.examples.zookeeper.leaderSelector.LeaderSelectorClient $@
+java -cp $PRGDIR/../target/classes:$PRGDIR/examples-libs/* com.mblund.examples.zookeeper.leaderSelector.LeaderSelectorExample $@
